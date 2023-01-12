@@ -4,7 +4,7 @@
 
 ### Step 3: `npm start` 
 
-[Figma Link](https://www.figma.com/file/2CbqtEYrhDN49L52XXZFW9/UIUX_DashboardMockup?node-id=0%3A1&t=25Hsr7LPSG917yb9-1) 
+## [Figma Link](https://www.figma.com/file/2CbqtEYrhDN49L52XXZFW9/UIUX_DashboardMockup?node-id=0%3A1&t=25Hsr7LPSG917yb9-1) 
 
 ![01](https://user-images.githubusercontent.com/61531844/212133297-39a5d8a3-19c7-4741-96b5-e23d4cdb20d1.png)
 ![2](https://user-images.githubusercontent.com/61531844/212133353-6dcdf8dc-c5ef-4ba1-9f7e-86d3411e3bba.png)
