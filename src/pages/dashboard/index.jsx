@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockStats} from "../../data/mockData";
@@ -14,10 +14,40 @@ import DeviceThermostatIcon from '@mui/icons-material/DeviceThermostat';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import Timer from "../../components/Timer";
+// import Weather from "../../components/Weather";
+
 
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+  // let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
+  // const [weatherData, setWeatherData] = useState([]);
+
+    /**
+     * Retrieve weather data from openweathermap
+     * https://api.openweathermap.org/data/2.5/weather?q=london&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial
+     */
+  // const getWeatherData = async () => {
+  //   const URL = "https://api.openweathermap.org/data/2.5/weather";
+  //   const FULL_URL = `${URL}?q=london&appid=${API_KEY}&units=imperial`;
+  //   const weatherPromise =  fetch(FULL_URL);
+  //   return weatherPromise.then((response) => {
+  //     return response.json();
+  // })
+  // }
+    
+  //  useEffect(() => {
+  //   getWeatherData()
+  //   .then((response) => {
+  //     console.log(response);
+  //     setWeatherData(response);
+  //   })
+  //   .catch((error) => {
+  //     alert(error);
+  //   });
+  //       console.log(weatherData.weather[0].description);
+  //  }, []);
+
 
   return (
     <Box m="20px">
@@ -99,6 +129,8 @@ const Dashboard = () => {
         >
           <StatBox
             title='Sunny'
+          // title={weatherData.weather[0].description}
+            // title={<Weather city="London"/>}
             subtitle="Outside weather"
             icon={
               <WbSunnyIcon
@@ -227,7 +259,7 @@ const Dashboard = () => {
             >
               <Box>
                 <Typography
-                  color={colors.darkBlueAccent[500]}
+                  color={colors.darkBlueAccent[300]}
                   variant="h5"
                   fontWeight="600"
                 >
