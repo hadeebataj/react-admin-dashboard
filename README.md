@@ -1,3 +1,9 @@
+### Step 1: `git clone https://github.com/hadeebataj/react-admin-dashboard.git`
+
+### Step 2: `npm intsall` or `npm install --force`
+
+### Step 3: `npm start`
+
 ## [Figma Link](https://www.figma.com/file/2CbqtEYrhDN49L52XXZFW9/UIUX_DashboardMockup?node-id=0%3A1&t=25Hsr7LPSG917yb9-1)
 
 ![01](https://user-images.githubusercontent.com/61531844/212133297-39a5d8a3-19c7-4741-96b5-e23d4cdb20d1.png)
