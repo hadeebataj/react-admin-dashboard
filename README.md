@@ -1,3 +1,6 @@
+###Step 1: `git clone https://github.com/hadeebataj/react-admin-dashboard.git`
+###Step 2: `npm install` or `npm install --force`
+###Step 3: `npm start`
 
 ![01](https://user-images.githubusercontent.com/61531844/212133297-39a5d8a3-19c7-4741-96b5-e23d4cdb20d1.png)
 ![2](https://user-images.githubusercontent.com/61531844/212133353-6dcdf8dc-c5ef-4ba1-9f7e-86d3411e3bba.png)
