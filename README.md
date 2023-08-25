@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Step 1: `git clone https://github.com/hadeebataj/react-admin-dashboard.git`
 
 ### Step 2: `npm intsall` or `npm install --force`
